@@ -29,3 +29,6 @@ resource privateDnsZoneVnetLink 'Microsoft.Network/privateDnsZones/virtualNetwor
     }
   }
 }
+
+output name string = privateDnsZone.name
+output id string = privateDnsZone.id
